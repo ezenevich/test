@@ -19,7 +19,7 @@ namespace nevelly {
 	using namespace System::Text;
 	using namespace msclr::interop;
 	/// <summary>
-	/// Сводка для userentranse
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї userentranse
 	/// </summary>
 	public ref class userentranse : public System::Windows::Forms::Form
 	{
@@ -28,13 +28,13 @@ namespace nevelly {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~userentranse()
 		{
@@ -61,14 +61,14 @@ namespace nevelly {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -125,7 +125,7 @@ namespace nevelly {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(190, 27);
 			this->label4->TabIndex = 9;
-			this->label4->Text = L"я преподаватель";
+			this->label4->Text = L"Гї ГЇГ°ГҐГЇГ®Г¤Г ГўГ ГІГҐГ«Гј";
 			this->label4->Click += gcnew System::EventHandler(this, &userentranse::label4_Click);
 			// 
 			// button1
@@ -136,7 +136,7 @@ namespace nevelly {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(317, 51);
 			this->button1->TabIndex = 8;
-			this->button1->Text = L"продолжить";
+			this->button1->Text = L"ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &userentranse::button1_Click);
 			// 
@@ -151,7 +151,7 @@ namespace nevelly {
 			this->textBox5->PasswordChar = '*';
 			this->textBox5->Size = System::Drawing::Size(317, 39);
 			this->textBox5->TabIndex = 7;
-			this->textBox5->Text = L"повтор пароля";
+			this->textBox5->Text = L"ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї";
 			this->textBox5->Click += gcnew System::EventHandler(this, &userentranse::textBox5_Click);
 			this->textBox5->TextChanged += gcnew System::EventHandler(this, &userentranse::textBox5_TextChanged);
 			this->textBox5->Leave += gcnew System::EventHandler(this, &userentranse::textBox5_Leave);
@@ -164,7 +164,7 @@ namespace nevelly {
 			this->checkBox1->Name = L"checkBox1";
 			this->checkBox1->Size = System::Drawing::Size(140, 20);
 			this->checkBox1->TabIndex = 6;
-			this->checkBox1->Text = L"показать пароль";
+			this->checkBox1->Text = L"ГЇГ®ГЄГ Г§Г ГІГј ГЇГ Г°Г®Г«Гј";
 			this->checkBox1->UseVisualStyleBackColor = false;
 			this->checkBox1->CheckedChanged += gcnew System::EventHandler(this, &userentranse::checkBox1_CheckedChanged);
 			// 
@@ -179,7 +179,7 @@ namespace nevelly {
 			this->textBox4->PasswordChar = '*';
 			this->textBox4->Size = System::Drawing::Size(317, 39);
 			this->textBox4->TabIndex = 5;
-			this->textBox4->Text = L"пароль";
+			this->textBox4->Text = L"ГЇГ Г°Г®Г«Гј";
 			this->textBox4->Click += gcnew System::EventHandler(this, &userentranse::textBox4_Click);
 			this->textBox4->TextChanged += gcnew System::EventHandler(this, &userentranse::textBox4_TextChanged);
 			this->textBox4->Leave += gcnew System::EventHandler(this, &userentranse::textBox4_Leave);
@@ -194,7 +194,7 @@ namespace nevelly {
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(317, 39);
 			this->textBox3->TabIndex = 4;
-			this->textBox3->Text = L"ФИО";
+			this->textBox3->Text = L"Г”Г€ГЋ";
 			this->textBox3->Click += gcnew System::EventHandler(this, &userentranse::textBox3_Click);
 			this->textBox3->Leave += gcnew System::EventHandler(this, &userentranse::textBox3_Leave);
 			// 
@@ -209,7 +209,7 @@ namespace nevelly {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(214, 40);
 			this->label3->TabIndex = 1;
-			this->label3->Text = L"регистрация";
+			this->label3->Text = L"Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї";
 			this->label3->Click += gcnew System::EventHandler(this, &userentranse::label3_Click);
 			// 
 			// label2
@@ -223,7 +223,7 @@ namespace nevelly {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(94, 40);
 			this->label2->TabIndex = 0;
-			this->label2->Text = L"вход";
+			this->label2->Text = L"ГўГµГ®Г¤";
 			this->label2->Click += gcnew System::EventHandler(this, &userentranse::label2_Click);
 			// 
 			// label1
@@ -277,9 +277,9 @@ private:
 	{
 		if (lb2)
 		{
-			if (textBox3->Text == "ФИО" || textBox4->Text == "пароль")
+			if (textBox3->Text == "Г”Г€ГЋ" || textBox4->Text == "ГЇГ Г°Г®Г«Гј")
 			{
-				MessageBox::Show("Заполните все поля!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+				MessageBox::Show("Г‡Г ГЇГ®Г«Г­ГЁГІГҐ ГўГ±ГҐ ГЇГ®Г«Гї!", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 				return;
 			}
 
@@ -288,14 +288,14 @@ private:
 				String^ userFile = textBox3->Text + ".txt";
 				if (!File::Exists(userFile))
 				{
-					MessageBox::Show("Пользователь не найден", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+					MessageBox::Show("ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ Г­Г Г©Г¤ГҐГ­", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 					return;
 				}
 
 				array<String^>^ userData = File::ReadAllLines(userFile);
 				if (userData->Length < 2)
 				{
-					MessageBox::Show("Ошибка данных пользователя", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+					MessageBox::Show("ГЋГёГЁГЎГЄГ  Г¤Г Г­Г­Г»Гµ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 					return;
 				}
 
@@ -304,7 +304,7 @@ private:
 
 				if (inputHash != savedHash)
 				{
-					MessageBox::Show("Неверный пароль", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+					MessageBox::Show("ГЌГҐГўГҐГ°Г­Г»Г© ГЇГ Г°Г®Г«Гј", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 					return;
 				}
 
@@ -312,21 +312,21 @@ private:
 				UserSession::CurrentUsername = textBox3->Text;
 				UserSession::CurrentRole = "User";
 
-				MessageBox::Show("Вход выполнен успешно!", "Успех", MessageBoxButtons::OK, MessageBoxIcon::Information);
+				MessageBox::Show("Г‚ГµГ®Г¤ ГўГ»ГЇГ®Г«Г­ГҐГ­ ГіГ±ГЇГҐГёГ­Г®!", "Г“Г±ГЇГҐГµ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 				umain^ form = gcnew umain();
 				form->Show();
 				this->Hide();
 			}
 			catch (Exception^ ex)
 			{
-				MessageBox::Show("Ошибка входа: " + ex->Message, "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show("ГЋГёГЁГЎГЄГ  ГўГµГ®Г¤Г : " + ex->Message, "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 			}
 		}
 		else if (lb3) 
 		{
-			if (textBox3->Text == "ФИО" || textBox4->Text == "пароль(не менее 6 символов)" || textBox5->Text == "повтор пароля")
+			if (textBox3->Text == "Г”Г€ГЋ" || textBox4->Text == "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)" || textBox5->Text == "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї")
 			{
-				MessageBox::Show("Заполните все поля!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+				MessageBox::Show("Г‡Г ГЇГ®Г«Г­ГЁГІГҐ ГўГ±ГҐ ГЇГ®Г«Гї!", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 				return;
 			}
 
@@ -336,7 +336,7 @@ private:
 				String^ fio = textBox3->Text;
 				if (fio->Split(' ')->Length != 3)
 				{
-					MessageBox::Show("ФИО должно состоять из трех слов (Фамилия Имя Отчество)", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+					MessageBox::Show("Г”Г€ГЋ Г¤Г®Г«Г¦Г­Г® Г±Г®Г±ГІГ®ГїГІГј ГЁГ§ ГІГ°ГҐГµ Г±Г«Г®Гў (Г”Г Г¬ГЁГ«ГЁГї Г€Г¬Гї ГЋГІГ·ГҐГ±ГІГўГ®)", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 					return;
 				}
 
@@ -345,7 +345,7 @@ private:
 				{
 					if (!(Char::IsLetter(c) || c == ' ' || c == '-'))
 					{
-						MessageBox::Show("ФИО может содержать только буквы, пробелы и дефисы", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+						MessageBox::Show("Г”Г€ГЋ Г¬Г®Г¦ГҐГІ Г±Г®Г¤ГҐГ°Г¦Г ГІГј ГІГ®Г«ГјГЄГ® ГЎГіГЄГўГ», ГЇГ°Г®ГЎГҐГ«Г» ГЁ Г¤ГҐГґГЁГ±Г»", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 						return;
 					}
 				}
@@ -354,13 +354,13 @@ private:
 				String^ password = textBox4->Text;
 				if (password->Length < 6)
 				{
-					MessageBox::Show("Пароль должен содержать минимум 6 символов", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+					MessageBox::Show("ГЏГ Г°Г®Г«Гј Г¤Г®Г«Г¦ГҐГ­ Г±Г®Г¤ГҐГ°Г¦Г ГІГј Г¬ГЁГ­ГЁГ¬ГіГ¬ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 					return;
 				}
 
 				if (password != textBox5->Text)
 				{
-					MessageBox::Show("Пароли не совпадают", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+					MessageBox::Show("ГЏГ Г°Г®Г«ГЁ Г­ГҐ Г±Г®ГўГЇГ Г¤Г ГѕГІ", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 					return;
 				}
 
@@ -368,7 +368,7 @@ private:
 				String^ userFile = fio + ".txt";
 				if (File::Exists(userFile))
 				{
-					MessageBox::Show("Пользователь с таким ФИО уже зарегистрирован", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+					MessageBox::Show("ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г± ГІГ ГЄГЁГ¬ Г”Г€ГЋ ГіГ¦ГҐ Г§Г Г°ГҐГЈГЁГ±ГІГ°ГЁГ°Г®ГўГ Г­", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 					return;
 				}
 
@@ -390,14 +390,14 @@ private:
 				UserSession::CurrentUsername = fio;
 				UserSession::CurrentRole = "User";
 
-				MessageBox::Show("Регистрация прошла успешно!");
-				ureg1^ form = gcnew ureg1();
+			catch (Exception^ ex)
+                                MessageBox::Show(ex->Message);
 				form->Show();
 				this->Hide();
 			}
 			catch (Exception^ )
 			{
-				MessageBox::Show("Ошибка регистрации ");
+				MessageBox::Show("ГЋГёГЁГЎГЄГ  Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГЁ ");
 			}
 		}
 	}
@@ -415,7 +415,7 @@ private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e)
 	label3->ForeColor = Color::Silver;
 	textBox5->Visible = false;
 	textBox4->Visible = true;
-	textBox4->Text = "пароль";
+	textBox4->Text = "ГЇГ Г°Г®Г«Гј";
 	textBox4->PasswordChar = '\0';
 	checkBox1->Checked = false; 
 }
@@ -426,19 +426,19 @@ private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e)
 	label3->ForeColor = Color::White;
 	textBox4->Visible = true;
 	textBox5->Visible = true;
-	textBox4->Text = "пароль(не менее 6 символов)";
+	textBox4->Text = "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)";
 	textBox4->PasswordChar = '\0';
-	textBox5->Text = "повтор пароля";
+	textBox5->Text = "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї";
 	textBox5->PasswordChar = '\0';
 	checkBox1->Checked = false;
 }
 
 private: System::Void textBox4_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (lb2 && textBox4->Text == "пароль") {
+	if (lb2 && textBox4->Text == "ГЇГ Г°Г®Г«Гј") {
 		textBox4->Text = "";
 		textBox4->PasswordChar = '*';
 	}
-	else if (lb3 && textBox4->Text == "пароль(не менее 6 символов)") {
+	else if (lb3 && textBox4->Text == "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)") {
 		textBox4->Text = "";
 		textBox4->PasswordChar = '*';
 	}
@@ -446,28 +446,28 @@ private: System::Void textBox4_Click(System::Object^ sender, System::EventArgs^ 
 private: System::Void textBox4_Leave(System::Object^ sender, System::EventArgs^ e) {
 	if (String::IsNullOrEmpty(textBox4->Text)) {
 		if (lb2) {
-			textBox4->Text = "пароль";
+			textBox4->Text = "ГЇГ Г°Г®Г«Гј";
 			textBox4->PasswordChar = '\0';
 		}
 		else if (lb3) {
-			textBox4->Text = "пароль(не менее 6 символов)";
+			textBox4->Text = "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)";
 			textBox4->PasswordChar = '\0';
 		}
 	}
 }
 private: System::Void textBox5_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (textBox5->Text == "повтор пароля") {
+	if (textBox5->Text == "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї") {
 		textBox5->Clear();
 	}
 }
 private: System::Void textBox5_Leave(System::Object^ sender, System::EventArgs^ e) {
 	if (String::IsNullOrEmpty(textBox5->Text)) {
-		textBox5->Text = "повтор пароля";
+		textBox5->Text = "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї";
 	}
 }
 private: System::Void textBox3_Click(System::Object^ sender, System::EventArgs^ e) {
 	
-		if (textBox3->Text == "ФИО") {
+		if (textBox3->Text == "Г”Г€ГЋ") {
 			textBox3->Clear();
 		}
 	
@@ -475,13 +475,13 @@ private: System::Void textBox3_Click(System::Object^ sender, System::EventArgs^ 
 private: System::Void textBox3_Leave(System::Object^ sender, System::EventArgs^ e) {
 	
 		if (String::IsNullOrEmpty(textBox3->Text)) {
-			textBox3->Text = "ФИО";
+			textBox3->Text = "Г”Г€ГЋ";
 		}
 	
 }
 private: System::Void textBox5_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	if (lb3) {
-		if (textBox5->Text == "повтор пароля" || checkBox1->Checked) {
+		if (textBox5->Text == "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї" || checkBox1->Checked) {
 			textBox5->PasswordChar = '\0';
 		}
 		else {
@@ -491,7 +491,7 @@ private: System::Void textBox5_TextChanged(System::Object^ sender, System::Event
 }
 private: System::Void textBox4_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	if (lb2) {
-		if (textBox4->Text == "пароль" || checkBox1->Checked) {
+		if (textBox4->Text == "ГЇГ Г°Г®Г«Гј" || checkBox1->Checked) {
 			textBox4->PasswordChar = '\0';
 		}
 		else {
@@ -499,7 +499,7 @@ private: System::Void textBox4_TextChanged(System::Object^ sender, System::Event
 		}
 	}
 	else if (lb3) {
-		if (textBox4->Text == "пароль(не менее 6 символов)" || checkBox1->Checked) {
+		if (textBox4->Text == "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)" || checkBox1->Checked) {
 			textBox4->PasswordChar = '\0';
 		}
 		else {
@@ -509,32 +509,32 @@ private: System::Void textBox4_TextChanged(System::Object^ sender, System::Event
 }
 private: System::Void checkBox1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 	if (checkBox1->Checked) {
-		if (lb2 && textBox4->Text != "пароль") {
+		if (lb2 && textBox4->Text != "ГЇГ Г°Г®Г«Гј") {
 			textBox4->PasswordChar = '\0';
 		}
-		else if (lb3 && textBox4->Text != "пароль(не менее 6 символов)") {
+		else if (lb3 && textBox4->Text != "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)") {
 			textBox4->PasswordChar = '\0';
 		}
-		if (lb3 && textBox5->Text != "повтор пароля") {
+		if (lb3 && textBox5->Text != "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї") {
 			textBox5->PasswordChar = '\0';
 		}
 	}
 	else {
-		if (lb2 && textBox4->Text != "пароль") {
+		if (lb2 && textBox4->Text != "ГЇГ Г°Г®Г«Гј") {
 			textBox4->PasswordChar = '*';
 		}
-		else if (lb3 && textBox4->Text != "пароль(не менее 6 символов)") {
+		else if (lb3 && textBox4->Text != "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)") {
 			textBox4->PasswordChar = '*';
 		}
-		if (lb3 && textBox5->Text != "повтор пароля") {
+		if (lb3 && textBox5->Text != "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї") {
 			textBox5->PasswordChar = '*';
 		}
 	}
 }
 private: System::Void userentranse_Load(System::Object^ sender, System::EventArgs^ e) {
 	if (lb2) {
-		textBox4->Text = "пароль";
-		if (textBox4->Text == "пароль" || checkBox1->Checked) {
+		textBox4->Text = "ГЇГ Г°Г®Г«Гј";
+		if (textBox4->Text == "ГЇГ Г°Г®Г«Гј" || checkBox1->Checked) {
 			textBox4->PasswordChar = '\0';
 		}
 		else {
@@ -543,15 +543,15 @@ private: System::Void userentranse_Load(System::Object^ sender, System::EventArg
 		textBox5->Visible = false;
 	}
 	else if (lb3) {
-		textBox4->Text = "пароль(не менее 6 символов)";
-		textBox5->Text = "повтор пароля";
-		if (textBox4->Text == "пароль(не менее 6 символов)" || checkBox1->Checked) {
+		textBox4->Text = "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)";
+		textBox5->Text = "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї";
+		if (textBox4->Text == "ГЇГ Г°Г®Г«Гј(Г­ГҐ Г¬ГҐГ­ГҐГҐ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў)" || checkBox1->Checked) {
 			textBox4->PasswordChar = '\0';
 		}
 		else {
 			textBox4->PasswordChar = '*';
 		}
-		if (textBox5->Text == "повтор пароля" || checkBox1->Checked) {
+		if (textBox5->Text == "ГЇГ®ГўГІГ®Г° ГЇГ Г°Г®Г«Гї" || checkBox1->Checked) {
 			textBox5->PasswordChar = '\0';
 		}
 		else {
