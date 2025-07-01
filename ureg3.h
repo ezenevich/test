@@ -12,7 +12,7 @@ namespace nevelly {
 	using namespace System::Drawing;
 	using namespace System::IO;
 	/// <summary>
-	/// Сводка для ureg3
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї ureg3
 	/// </summary>
 	public ref class ureg3 : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace nevelly {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~ureg3()
 		{
@@ -57,14 +57,14 @@ namespace nevelly {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -112,7 +112,7 @@ namespace nevelly {
 			this->radioButton4->Size = System::Drawing::Size(111, 29);
 			this->radioButton4->TabIndex = 26;
 			this->radioButton4->TabStop = true;
-			this->radioButton4->Text = L"эмпатия";
+			this->radioButton4->Text = L"ГЅГ¬ГЇГ ГІГЁГї";
 			this->radioButton4->UseVisualStyleBackColor = false;
 			// 
 			// radioButton3
@@ -127,7 +127,7 @@ namespace nevelly {
 			this->radioButton3->Size = System::Drawing::Size(188, 29);
 			this->radioButton3->TabIndex = 25;
 			this->radioButton3->TabStop = true;
-			this->radioButton3->Text = L"ответственность";
+			this->radioButton3->Text = L"Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГј";
 			this->radioButton3->UseVisualStyleBackColor = false;
 			// 
 			// radioButton2
@@ -142,7 +142,7 @@ namespace nevelly {
 			this->radioButton2->Size = System::Drawing::Size(178, 29);
 			this->radioButton2->TabIndex = 24;
 			this->radioButton2->TabStop = true;
-			this->radioButton2->Text = L"чувство юмора";
+			this->radioButton2->Text = L"Г·ГіГўГ±ГІГўГ® ГѕГ¬Г®Г°Г ";
 			this->radioButton2->UseVisualStyleBackColor = false;
 			// 
 			// radioButton1
@@ -157,7 +157,7 @@ namespace nevelly {
 			this->radioButton1->Size = System::Drawing::Size(126, 29);
 			this->radioButton1->TabIndex = 23;
 			this->radioButton1->TabStop = true;
-			this->radioButton1->Text = L"честность";
+			this->radioButton1->Text = L"Г·ГҐГ±ГІГ­Г®Г±ГІГј";
 			this->radioButton1->UseVisualStyleBackColor = false;
 			// 
 			// button1
@@ -168,7 +168,7 @@ namespace nevelly {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(276, 43);
 			this->button1->TabIndex = 22;
-			this->button1->Text = L"продолжить";
+			this->button1->Text = L"ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Visible = false;
 			this->button1->Click += gcnew System::EventHandler(this, &ureg3::button1_Click);
@@ -181,7 +181,7 @@ namespace nevelly {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(276, 43);
 			this->button2->TabIndex = 21;
-			this->button2->Text = L"ДАЛЕЕ";
+			this->button2->Text = L"Г„ГЂГ‹Г…Г…";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &ureg3::button2_Click);
 			// 
@@ -196,7 +196,7 @@ namespace nevelly {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(332, 27);
 			this->label4->TabIndex = 17;
-			this->label4->Text = L"наиболее важна в напарнике\?";
+			this->label4->Text = L"Г­Г ГЁГЎГ®Г«ГҐГҐ ГўГ Г¦Г­Г  Гў Г­Г ГЇГ Г°Г­ГЁГЄГҐ\?";
 			// 
 			// label3
 			// 
@@ -209,7 +209,7 @@ namespace nevelly {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(344, 27);
 			this->label3->TabIndex = 15;
-			this->label3->Text = L"Какая черта характера для вас ";
+			this->label3->Text = L"ГЉГ ГЄГ Гї Г·ГҐГ°ГІГ  ГµГ Г°Г ГЄГІГҐГ°Г  Г¤Г«Гї ГўГ Г± ";
 			// 
 			// label2
 			// 
@@ -222,7 +222,7 @@ namespace nevelly {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(424, 31);
 			this->label2->TabIndex = 14;
-			this->label2->Text = L"Ваши предпочтения в напарнике\?";
+			this->label2->Text = L"Г‚Г ГёГЁ ГЇГ°ГҐГ¤ГЇГ®Г·ГІГҐГ­ГЁГї Гў Г­Г ГЇГ Г°Г­ГЁГЄГҐ\?";
 			// 
 			// label1
 			// 
@@ -271,7 +271,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 			reader->Close();
 		}
 		if (lastUsername == "") {
-			MessageBox::Show("Нет зарегистрированных пользователей");
+			MessageBox::Show("ГЌГҐГІ Г§Г Г°ГҐГЈГЁГ±ГІГ°ГЁГ°Г®ГўГ Г­Г­Г»Гµ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГҐГ©");
 			return;
 		}
 		StreamWriter^ sw = gcnew StreamWriter(lastUsername + ".txt", true);
@@ -279,7 +279,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		sw->Close();
 	}
 	catch (Exception^ ex) {
-		MessageBox::Show("Ошибка при записи в файл: " + ex->Message);
+		MessageBox::Show("ГЋГёГЁГЎГЄГ  ГЇГ°ГЁ Г§Г ГЇГЁГ±ГЁ Гў ГґГ Г©Г«: " + ex->Message);
 	}
 	umain^ t4Form = gcnew umain();
 	t4Form->Show();
@@ -309,7 +309,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 		}
 
 		if (!isSelected) {
-			MessageBox::Show("Пожалуйста, выберите один вариант");
+			MessageBox::Show("ГЏГ®Г¦Г Г«ГіГ©Г±ГІГ , ГўГ»ГЎГҐГ°ГЁГІГҐ Г®Г¤ГЁГ­ ГўГ Г°ГЁГ Г­ГІ");
 			return;
 		}
 		if (count > 0) {
@@ -318,34 +318,34 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 		selectedTraits += selectedTrait;
 		count++;
 		if (count == 1) {
-			label3->Text = "Какой стиль общения";
-			label4->Text = "вы предпочитаете в напарнике";
-			radioButton1->Text = "прямолинейность и честность";
-			radioButton2->Text = "дружелюбность и поддержка";
-			radioButton3->Text = "формальность и профессионализм";
-			radioButton4->Text = "творчество и нестандартность";
+			label3->Text = "ГЉГ ГЄГ®Г© Г±ГІГЁГ«Гј Г®ГЎГ№ГҐГ­ГЁГї";
+	catch (Exception^ ex) {
+                  MessageBox::Show(ex->Message);
+			radioButton2->Text = "Г¤Г°ГіГ¦ГҐГ«ГѕГЎГ­Г®Г±ГІГј ГЁ ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГ ";
+			radioButton3->Text = "ГґГ®Г°Г¬Г Г«ГјГ­Г®Г±ГІГј ГЁ ГЇГ°Г®ГґГҐГ±Г±ГЁГ®Г­Г Г«ГЁГ§Г¬";
+			radioButton4->Text = "ГІГўГ®Г°Г·ГҐГ±ГІГўГ® ГЁ Г­ГҐГ±ГІГ Г­Г¤Г Г°ГІГ­Г®Г±ГІГј";
 		}
 		else if (count == 2) {
-			label3->Text = "Какой подход в решении";
-			label4->Text = "проблем вы предпочитаете в напарнике";
-			radioButton1->Text = "аналитический и логичный";
-			radioButton2->Text = "креативный и нестандартный";
-			radioButton3->Text = "практичный и быстрый";
-			radioButton4->Text = "командный и согласованный";
+			label3->Text = "ГЉГ ГЄГ®Г© ГЇГ®Г¤ГµГ®Г¤ Гў Г°ГҐГёГҐГ­ГЁГЁ";
+			label4->Text = "ГЇГ°Г®ГЎГ«ГҐГ¬ ГўГ» ГЇГ°ГҐГ¤ГЇГ®Г·ГЁГІГ ГҐГІГҐ Гў Г­Г ГЇГ Г°Г­ГЁГЄГҐ";
+			radioButton1->Text = "Г Г­Г Г«ГЁГІГЁГ·ГҐГ±ГЄГЁГ© ГЁ Г«Г®ГЈГЁГ·Г­Г»Г©";
+			radioButton2->Text = "ГЄГ°ГҐГ ГІГЁГўГ­Г»Г© ГЁ Г­ГҐГ±ГІГ Г­Г¤Г Г°ГІГ­Г»Г©";
+			radioButton3->Text = "ГЇГ°Г ГЄГІГЁГ·Г­Г»Г© ГЁ ГЎГ»Г±ГІГ°Г»Г©";
+			radioButton4->Text = "ГЄГ®Г¬Г Г­Г¤Г­Г»Г© ГЁ Г±Г®ГЈГ«Г Г±Г®ГўГ Г­Г­Г»Г©";
 		}
 		else if (count == 3) {
-			label3->Text = "какую роль";
-			label4->Text = "должен выполнять напарник в команде";
-			radioButton1->Text = "лидер";
-			radioButton2->Text = "исполнитель";
-			radioButton3->Text = "мотиватор";
-			radioButton4->Text = "идеолог";
+			label3->Text = "ГЄГ ГЄГіГѕ Г°Г®Г«Гј";
+			label4->Text = "Г¤Г®Г«Г¦ГҐГ­ ГўГ»ГЇГ®Г«Г­ГїГІГј Г­Г ГЇГ Г°Г­ГЁГЄ Гў ГЄГ®Г¬Г Г­Г¤ГҐ";
+			radioButton1->Text = "Г«ГЁГ¤ГҐГ°";
+			radioButton2->Text = "ГЁГ±ГЇГ®Г«Г­ГЁГІГҐГ«Гј";
+			radioButton3->Text = "Г¬Г®ГІГЁГўГ ГІГ®Г°";
+			radioButton4->Text = "ГЁГ¤ГҐГ®Г«Г®ГЈ";
 			button1->Visible = true;
 			button2->Visible = false;
 		}
 	}
 	catch (Exception^ ) {
-		MessageBox::Show("Ошибка");
+		MessageBox::Show("ГЋГёГЁГЎГЄГ ");
 	}
 	radioButton1->Checked = false;
 	radioButton2->Checked = false;
